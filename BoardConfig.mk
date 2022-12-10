@@ -59,3 +59,6 @@ TARGET_KERNEL_EXT_MODULES := \
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/samsung:libudfps_extension.samsung
+
+# SEPolicy (for bootanimation rotation)
+PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
