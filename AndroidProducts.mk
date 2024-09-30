@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts9wifi.mk
+    $(LOCAL_DIR)/derp_gts9wifi.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_gts9wifi-eng \
+    derp_gts9wifi-user \
+    derp_gts9wifi-userdebug
