@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     SystemUIResGts9wifi \
     SettingsResGts9wifi
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
