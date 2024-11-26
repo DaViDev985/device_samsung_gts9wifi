@@ -20,6 +20,9 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-X710
 PRODUCT_MANUFACTURER := samsung
 
+# Set boot animation orientation and default display rotation to be landscape.
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.bootanim.set_orientation_logical_0=ORIENTATION_90
+
 ## S Pen
 TARGET_HAVE_SPEN := true
 
