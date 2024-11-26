@@ -37,7 +37,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     FrameworksResGts9wifi \
     SystemUIResGts9wifi \
-    SettingsResGts9wifi
+    SettingsResGts9wifi \
+    ApertureResGts9wifi
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
