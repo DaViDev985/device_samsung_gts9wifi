@@ -145,11 +145,6 @@ vendor/firmware/cs35l45-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l45-dsp1-spk-prot.bin
 vendor/firmware/cs35l45-dsp1-spk-prot.wmfw
 
-# Samsung Pen Hall
-system/usr/idc/hall_wacom.idc:vendor/usr/idc/hall_wacom.idc
-system/usr/idc/sec_e-pen.idc:vendor/usr/idc/sec_e-pen.idc
-system/usr/idc/wacom_hall.idc:vendor/usr/idc/wacom_hall.idc
-
 # Pen
 vendor/firmware/wez01_gts9.bin
 

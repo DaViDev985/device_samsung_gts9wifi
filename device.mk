@@ -53,9 +53,9 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
-# Keyboard Cover Keylayout
+# Samsung IDC files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/idc/Vendor_04e8_Product_a035.idc:vendor/usr/idc/Vendor_04e8_Product_a035.idc
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/idc/,$(TARGET_COPY_OUT_VENDOR)/usr/idc)
 
 # ANGLE
 PRODUCT_PACKAGES += \
