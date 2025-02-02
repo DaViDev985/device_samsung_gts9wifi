@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
     SettingsResGts9wifi \
     ApertureResGts9wifi
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
