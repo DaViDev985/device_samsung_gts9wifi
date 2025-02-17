@@ -68,6 +68,7 @@ on boot
 
     write /proc/sys/vm/swappiness 130
     write /sys/class/sec/tsp/cmd "set_fod_rect,721,2289,880,2448"
+    write /sys/class/lcd/panel/mask_brightness 319
 
 on shutdown
 
