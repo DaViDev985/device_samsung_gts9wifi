@@ -16,9 +16,9 @@ $(call inherit-product, device/samsung/gts9wifi/device.mk)
 
 PRODUCT_DEVICE := gts9wifi
 PRODUCT_NAME := derp_gts9wifi
-PRODUCT_BRAND := samsung
+PRODUCT_BRAND := google
 PRODUCT_MODEL := SM-X710
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := google
 
 ## S Pen
 TARGET_HAVE_SPEN := true
