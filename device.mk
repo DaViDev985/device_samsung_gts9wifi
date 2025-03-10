@@ -65,6 +65,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ANGLE
 
+# SamsungParts
+PRODUCT_PACKAGES += \
+   SamsungParts
+
 # FOD
 $(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
 $(call soong_config_set,samsung_udfps,dim_layer_zorder,0x20000001u)
