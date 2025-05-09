@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# DerpFest Flags
+DERPFEST_BUILD_TYPE := Official
+DERP_VERSION_APPEND_TIME_OF_DAY=true
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
