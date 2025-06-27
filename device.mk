@@ -60,8 +60,8 @@ PRODUCT_PACKAGES += \
     ANGLE
 
 # SamsungParts
-PRODUCT_PACKAGES += \
-   SamsungParts
+#PRODUCT_PACKAGES += \
+#   SamsungParts
 
 # FOD
 $(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
