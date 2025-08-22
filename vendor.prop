@@ -1,3 +1,6 @@
+# audio
+ro.audio.monitorRotation=true
+
 camera.disable_zsl_mode=1
 
 # Sdcard
@@ -34,3 +37,6 @@ ro.carrier=wifi-only
 
 # Brightness
 sys.brightness.disable_gamma_conversion=true
+
+# Fingerprint
+ro.vendor.fingerprint.rectangular_sensor_location=721,2289,880,2448
