@@ -12,6 +12,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 TARGET_IS_TABLET := true
 TARGET_IS_WIFI-ONLY := true
 
+WITH_ADB_INSECURE := true
+
+
 # Characteristics
 PRODUCT_CHARACTERISTICS := tablet
 
@@ -67,8 +70,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # FOD
-$(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
-$(call soong_config_set,samsung_udfps,dim_layer_zorder,0x20000001u)
+$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
+$(call soong_config_set,samsungUdfpsVars,dim_layer_zorder,0x20000001u)
 $(call soong_config_set,qtidisplay,samsung_udfps,true)
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung:libudfps_extension.samsung)
 $(call soong_config_set,samsungTouchVars,enableGloveMode,true)
