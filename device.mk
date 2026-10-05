@@ -89,6 +89,10 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung:libudfps_ext
 $(call soong_config_set,samsungTouchVars,enableGloveMode,true)
 $(call soong_config_set,samsungTouchVars,enableHighTouchPollingRate,true)
 $(call soong_config_set,samsungTouchVars,enableStylusMode,false)
+
+# Use legacy libion impl for unresolved symbols in TEE blobs
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
